@@ -1,6 +1,12 @@
 {
+  // Set the default
+  "editor.formatOnSave": true,
+  // Enable per-language
+  "[javascript]": {
+      "editor.formatOnSave": true
+  },
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#FF2C70",
-    "titleBar.inactiveBackground": "#FF2C70CC"
+    "titleBar.inactiveBackground": "#FF2C70CC",
   }
 }
